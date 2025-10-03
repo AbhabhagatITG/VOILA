@@ -4,17 +4,25 @@
 
 
 @media (max-width:1390px) {
-    nav.header-inline-menu {
+    /* nav.header-inline-menu {
     width: 100%;
-}
+} */
 ul.list-menu {
-    max-width: 61%;
-    width: 58%;
+    max-width:80%;
+    /* width: 58%; */
 }
 }
+ @media (max-width:1250px) {
+    .banner-text-content {
+    left: 35px;
+    max-width: 88%;
+    padding: 0px 30px;
+}
+    
+ }
 @media (max-width:1024px) {
-    ul.list-menu {
-    width: 64%;
+ul.list-menu {
+        max-width: 85%;
 }
 }
 
