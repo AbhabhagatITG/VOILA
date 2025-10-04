@@ -16,6 +16,16 @@
             text-decoration: none;
         }
 
+        #drawer-inner-empty {
+            position: fixed;
+            top: 0px;
+            z-index: 2;
+            right: 0% !important;
+            height: 100%;
+            width: 397px;
+            min-width: 300px;
+        }
+
         .search-model-content {
             border: 1px solid #435870bf;
             width: 50.6%;
@@ -52,49 +62,58 @@
             padding: 0px 15px;
         }
 
-        .search-model-bg {
-            background-color: white;
+        .cart-drawer-list {
+            width: 100%;
+            height: 100%;
+            line-height: 35px;
+            padding-left: 30px;
+        }
+
+        .cart-drawer-content-outter {
+            height: 100%;
+            background: white;
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            background: wheat;
+        }
+
+        .cart-drawer-content {
+            margin-bottom: 45px;
+            display: flex;
+            justify-content: end;
+            align-items: center;
+        }
+
+        ul.cart-drawer-list li a {
+            text-decoration: none;
+            color: #458691c4;
+            font-size: 20px;
         }
     </style>
 </head>
 
 <body>
-    <!-- <div class="search-model-bg">
-        <div class="search-content-outter flex justify-content align-item ">
-            <div class="search-model-content justify-content-SpBtw flex align-item">
-
-                <div class="search-input-inner flex flex-direction">
-                    <label for="search-content">search</label>
-                    <input type="search" name="search content" id="search-content">
-                </div>
-                <div class="header-search">
-                    <a href="#">
-                        <span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" focusable="false"
-                                color="#435870bf"
-                                style="user-select: none;/*width: 100%;*/height: 100%;display: inline-block;fill: #435870bf;color: #435870bf;flex-shrink: 0;">
-                                <g color="#435870bf" weight="regular">
-                                    <path
-                                        d="M229.66,218.34l-50.07-50.06a88.11,88.11,0,1,0-11.31,11.31l50.06,50.07a8,8,0,0,0,11.32-11.32ZM40,112a72,72,0,1,1,72,72A72.08,72.08,0,0,1,40,112Z">
-                                    </path>
-                                </g>
-                            </svg>
-                        </span>
-                    </a>
-                </div>
-
+    <div class="page-width">
+        <div class="image-with-text-outter">
+            <div class="image-slide">
+                <img src="" alt="a woman is walking a small dog on a leash">
             </div>
-            <button type="button" id="search-input-Btn">
-                <span class="cross-icon">
-                    <svg width="17px" height="17px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M20 20L4 4.00003M20 4L4.00002 20" stroke="#435870bf" stroke-width="2"
-                            stroke-linecap="round" />
-                    </svg>
-                </span>
-            </button>
+            <div class="content-slide">
+                <div class="content-slide-inner">
+                    <h2>WELCOME</h2>
+                    <div class="image-icon-Topcontent">
+                        <p>At Voilà, we believe that the relationship between people and their pets is one of life's
+                            most meaningful connections. We're dedicated to crafting thoughtful and stylish products
+                            with an emphasis on quality and sustainability. Our mission - to bring ease and joy into
+                            your everyday moments with your beloved pets! Voilà!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="image-slide"><img src="" alt="a man kisses a small brown dog on the cheek | voilà!"></div>
         </div>
-    </div> -->
 
-
+    </div>
 </body>
 
 </html>

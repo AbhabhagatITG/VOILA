@@ -12,7 +12,6 @@
     <link
         href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Jost:ital,wght@0,100..900;1,100..900&family=Lavishly+Yours&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
         rel="stylesheet">
-
 </head>
 
 <body>
@@ -23,34 +22,32 @@
             </div>
         </div>
     </div>
+    <!-- header section -->
     <header>
         <div class="header-wrapper">
             <div class="header-outter" id="header-outter-wrap">
                 <div class="header-inner flex justify-content-SpBtw align-item">
-                    <!-- <div class="hamburger-wrap">
-                        <div class="hamburger-inner">
-                                    <a href="#">
-                                        <span><svg xmlns="http://www.w3.org/2000/svg" fill="none" class="icon icon-hamburger"
-                                                viewBox="0 0 18 16">
-                                                <path fill="currentColor"
-                                                    d="M1 .5a.5.5 0 1 0 0 1h15.71a.5.5 0 0 0 0-1zM.5 8a.5.5 0 0 1 .5-.5h15.71a.5.5 0 0 1 0 1H1A.5.5 0 0 1 .5 8m0 7a.5.5 0 0 1 .5-.5h15.71a.5.5 0 0 1 0 1H1a.5.5 0 0 1-.5-.5">
-                                                </path>
-                                            </svg>
-                                        </span>
-                                    </a>
-                                </div>
-                    </div> -->
+                    <div class="hamburger-wrap">
+                        <a href="#" class="flex">
+                            <div class="hamburger flex-direction " id="burger" onclick="toggleMenu()">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+                        </a>
+                    </div>
+                    <!-- logo section -->
                     <div class="logo-section">
                         <div class="logo-inner">
-                            <img src="./assits/pictures/header-logo.svg" alt="Voilapets.com" width="120" height="36.3">
+                            <a href="#"><img src="./assits/pictures/header-logo.svg" alt="Voilapets.com" width="120"
+                                    height="36.3"></a>
                         </div>
                     </div>
+                    <!-- menu section -->
                     <nav class="header-inline-menu flex justify-content align-item">
                         <ul class="list-menu flex align-item justify-content-SpBtw">
                             <li><a href="#" class="padding20">Home</a> </li>
                             <li class="padding20 drop-down-mega-menu">
-
-
                                 <a href="#">
                                     <div class="header-menu-items flex align-item ">
                                         Shop
@@ -62,23 +59,24 @@
                                             </svg></span>
                                     </div>
                                 </a>
+                                <!-- mega menu section -->
                                 <div class="mega-menu-wrap">
-                                    <ul class="shop-drop-down flex justify-content-SpBtw  mega-menu-top ">
+                                    <ul class="shop-drop-down flex justify-content mega-menu-top ">
                                         <li class="shop-text-content ">
-                                            <ul>
-                                                <li><a href="#">
-                                                        <h3>Ultimate Treat Pouch</h3>
-                                                    </a></li>
+                                            <ul class="UltimateTreat">
+                                                <a href="#">
+                                                    <h3>Ultimate Treat Pouch</h3>
+                                                </a>
                                                 <li><a href="#">Mini</a></li>
                                                 <li><a href="#">Standard</a></li>
                                                 <li><a href="#">Large</a></li>
                                                 <li><a href="#">Sealable</a></li>
-                                                <li><a href="#">Accessories</a></li>
+                                                <li><a href="#">Shop All</a></li>
                                             </ul>
-                                            <ul>
-                                                <li><a href="#">
-                                                        <h3>Accessories</h3>
-                                                    </a></li>
+                                            <ul class="accessories">
+                                                <a href="#">
+                                                    <h3>Accessories</h3>
+                                                </a>
                                                 <li> <a href="#">Carabiner</a> </li>
                                                 <li><a href="#">Adventure Clip </a></li>
                                                 <li><a href="#">Mini Adventure Clip</a></li>
@@ -86,17 +84,15 @@
                                                 <li><a href="#">Shop All</a></li>
                                             </ul>
                                         </li>
-
                                         <li class="flex">
-                                            <div class="shop-mega-menu-block-image flex align-item">
+                                            <div class="shop-mega-menu-block-image flex-direction flex align-item">
                                                 <img src="./assits/pictures/shopAll.webp" alt="VoelaShop" height="100%"
                                                     width="100%">
                                                 <a href="#">
                                                     <h4 class="text-align">Shop All</h4>
                                                 </a>
                                             </div>
-
-                                            <div class="shop-mega-menu-block-image flex align-item">
+                                            <div class="shop-mega-menu-block-image flex-direction flex align-item">
                                                 <img src="./assits/pictures/ulimatetreat.webp" alt="VoelaTreat"
                                                     height="100%" width="100%">
                                                 <div>
@@ -105,17 +101,16 @@
                                                     </a>
                                                 </div>
                                             </div>
-                                            <div class="shop-mega-menu-block-image flex align-item">
+                                            <div class="shop-mega-menu-block-image flex-direction flex align-item">
                                                 <img src="./assits/pictures/accessories.webp" alt="accessories"
                                                     height="100%" width="100%">
                                                 <div>
-
                                                     <a href="#">
                                                         <h4 class="text-align flex align-item">accessories</h4>
                                                     </a>
                                                 </div>
                                             </div>
-                                            <div class="shop-mega-menu-block-image flex align-item">
+                                            <div class="shop-mega-menu-block-image flex-direction flex align-item">
                                                 <img src="./assits/pictures/Bestsellers.webp" alt="" height="100%"
                                                     width="100%">
                                                 <div>
@@ -127,7 +122,6 @@
                                         </li>
                                     </ul>
                                 </div>
-
                             </li>
                             <li class="links-content dropdown "><a href="#">
                                     <div class="header-menu-items flex align-item ">
@@ -141,15 +135,15 @@
                                     </div>
                                 </a>
                                 <ul class="mega-menu">
-                                    <li><a href="#">Our story</a></li>
-                                    <li><a href="#">Gallery</a> </li>
+                                    <li><a href="#" class="display">Our story</a></li>
+                                    <li><a href="#" class="display">Gallery</a> </li>
                                 </ul>
                             </li>
                             <li> <a href="#" class="padding20">FAQs</a> </li>
                             <li><a href="#" class="padding20">Contact Us</a></li>
-
                         </ul>
                     </nav>
+                    <!-- constom icons -->
                     <div class="header-icons flex align-item">
                         <div class="header-icons-outter">
                             <div class="header-icons-inner flex justify-content-SpBtw align-item">
@@ -170,7 +164,7 @@
                                         </span>
                                     </a>
                                 </div>
-                                <span class="line">|</span>
+                                <span class="line"> <a href="#">|</a></span>
                                 <div class="header-account">
                                     <a href="#"><span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256"
                                                 focusable="false"
@@ -184,7 +178,7 @@
                                                 </g>
                                             </svg></span></a>
                                 </div>
-                                <span class="line">|</span>
+                                <span class="line"><a href="#">|</a></span>
                                 <div class="header-card flex" id="cart-box">
                                     <a href="#">
                                         <span>
@@ -208,13 +202,10 @@
                 </div>
             </div>
             <div class="hidden" id="search-content-wrap">
-
                 <div class="search-model-bg header-outter">
                     <div class="search-content-outter flex justify-content align-item header-inner">
                         <div class="search-model-content justify-content-SpBtw flex align-item">
-
                             <div class="search-input-inner flex flex-direction">
-                                <!-- <label for="search-content">search</label> -->
                                 <input type="search" name="search content" placeholder="search" id="search-content">
                             </div>
                             <div class="header-search">
@@ -231,7 +222,6 @@
                                     </span>
                                 </a>
                             </div>
-
                         </div>
                         <button type="button" id="cross-input-Btn">
                             <span class="cross-icon flex">
@@ -248,8 +238,29 @@
             </div>
         </div>
     </header>
+    <!-- banner setion -->
+    <div class="banner-warpper">
+        <div class="banner-outter">
+            <div class="banner-inner">
+                <div class="banner-video-container">
+                    <video id="video-main" width="100%" /*height="750px" */ min-height="550px" autoplay muted loop>
+                        <source src="./assits/videos/banner-background-video.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <div class="banner-text-content justify-content-SpBtw flex align-item">
+                    <div class="banner-image-heading">
+                        <h2 class="heading banner-heading">The ultimate treat pouch</h2>
+                    </div>
+                    <div class="banner-button flex justify-content align-item">
+                        <a href="#">Get Yours</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- silder section -->
     <div id="drawer-inner-empty">
-        <div class="cart-drawer-content-outter">
+        <div class="cart-drawer-content-outter flex-center flex ">
             <button type="button" id="cart-cross-Btn">
                 <span class="cross-icon">
                     <svg width="25px" height="25px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -267,25 +278,21 @@
         </div>
         <div class="CartDrawer-Overlay"></div>
     </div>
-    <div class="banner-warpper">
-        <div class="banner-outter">
-            <div class="banner-inner">
-                <div class="banner-video-container">
-                    <video width="100%" height="100%" autoplay muted loop>
-                        <source src="./assits/videos/banner-background-video.mp4" type="video/mp4">
-                    </video>
-                </div>
-                <div class="banner-text-content">
-                    <div class="banner-image-heading">
-                        <h2 class="heading banner-heading">The ultimate treat pouch</h2>
-                    </div>
-                    <div class="banner-button">
-                        <a href="#">Get Yours</a>
-                    </div>
-                </div>
+    <!-- slider menu -->
+    <div id="mega-menu-slider" class="hidden">
+        <div class="mega-menu-slider-inner flex">
+            <div class="mega-menu-content-outter">
+                <ul class="mega-menu-content-inner">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Shop</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">FAQs</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
             </div>
         </div>
-    </div>  
+        <div class="CartDrawer-Overlay"></div>
+    </div>
     <script src="./js/script.js"></script>
 </body>
 

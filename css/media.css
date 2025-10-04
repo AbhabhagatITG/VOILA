@@ -1,45 +1,104 @@
-:root{
-    --relative-font-size:12px;
+:root {
+    --relative-font-size: 12px;
 }
 
 
-@media (max-width:1390px) {
-    /* nav.header-inline-menu {
-    width: 100%;
-} */
-ul.list-menu {
-    max-width:80%;
-    /* width: 58%; */
-}
-}
- @media (max-width:1250px) {
+
+@media (max-width:1250px) {
     .banner-text-content {
-    left: 35px;
-    max-width: 88%;
-    padding: 0px 30px;
+        left: 35px;
+        max-width: 88%;
+        padding: 0px 30px;
+    }
+.mega-menu-wrap {
+    left: 2.69%;
 }
-    
- }
-@media (max-width:1024px) {
-ul.list-menu {
-        max-width: 85%;
-}
-}
-
-@media (max-width:990px) {
-        ul.list-menu {
-    display: none;
-}
-    
-}
-@media (max-width:830px) {
-    .announcment-bar-outter h2{
-
-    font-size: 12px;
+    h2.heading.banner-heading {
+        font-size: 36px;
     }
 }
-@media (max-width:365px) {
+
+
+@media (max-width:990px) {
+   nav.header-inline-menu {
+        display: none;
+        font-size: 12px;
+    }
+    .hamburger-wrap{
+        display: block;
+    }
+   .header-outter{
+    padding: 10px;
+}
+#mega-menu-slider {
+    top: 122px;
+    left: 10px;
+}
+}
+@media (max-width: 992px) {
+    .navigation-bar {
+        position: fixed;
+        top: 0;
+        right: -100%;
+        height: 100vh;
+        width: 250px;
+        background: white;
+        flex-direction: column;
+        align-items: start;
+        padding: 80px 20px;
+        transition: right 0.3s ease;
+        z-index: 1000;
+    }
+
+    .navigation-bar.active {
+        right: 0;
+    }
+
+    ul.navigation-links {
+        flex-direction: column;
+        gap: 20px;
+        justify-content: flex-start;
+    }
+
+    .hamburger {
+        display: flex;
+    }
+}
+
+@media (max-width:749px) {
+    .banner-text-content {
+        flex-direction: column-reverse;
+        gap: 30px;
+        left: 0px;
+    }
+
+    h2.heading.banner-heading {
+        font-size: 24px;
+    }
+
+    .banner-button {
+        width: 180px;
+        height: 60px;
+        min-width: 90px;
+        font-size: 12px;
+        border-radius: 50px;
+    }
+}
+
+@media (max-width:422px) {
     .announcment-bar-outter h2 {
-    font-size: 10px;
+        font-size: 10px;
+    }
+    span.line {
+    padding: 0px 0.8px;
+}
+.logo-inner a img {
+    max-height: 25px;
+    height: 100%;
+    width: 100%;
+}
+.hamburger-inner a svg {
+    height: 24px;
+    width: 24px;
 }
 }
